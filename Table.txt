@@ -1,0 +1,9 @@
+<!-- filter form - DOESNT WORK, i need to edit the PHP code (commented below line 134)  -->
+            <form action="home.php" method="POST">
+                <label for="form_name">Enter the name of the hero you want to find:</label><br>
+                <input type="text" id="" name="name" value=""><br>
+            </form>
+
+<-- ... -->
+
+$sql = "SELECT * FROM characterthemes WHERE name=";
